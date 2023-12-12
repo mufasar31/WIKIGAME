@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2? family= Hedvig+Letters+Serif:opsz@12..24 & display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: rgb(43, 94, 215);
+}
+
+
+.container{
+    display: flex;
+    background-color: white;
+    height: 750px;
+    width: 1000px;
+    box-shadow: 0 0  20px black;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 25px;
+}
+
+.form{
+
+    padding: 30px 80px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form h2{
+    font-size: 45px;
+    color: rgb(43, 94, 215);
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.form p{
+    font-size: 16px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+label{
+    font-size: 15px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.box{
+    border: 0;
+    background-color: rgb(43, 94, 215);
+    padding: 15px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    outline: none;
+}
+
+.submit{
+     background-color: rgb(43, 94, 215);
+     border: 0;
+     padding: 15px;
+     color: white;
+     font-size: 16px;
+     border-radius: 25px;
+     width: 250px;
+     margin-top: 25px;
+     box-shadow: 0 0 20px rgb(43, 94, 215);
+}
+
+.info{
+    padding: 50px;
+}
+
+.img-1{
+    width: 350px;
+    height: 340px;
+    margin-bottom: 75px;
+}
+
+.location{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px ;
+}
+
+.icons{
+    display: flex;
+    margin-bottom: 31px;
+}
+
+.icons img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.icons p{
+    font-size: 14px;
+    color: rgb(43, 94, 215);
+}
+
+.social{
+    display: flex;
+}
+
+.social img{
+    width: 50px;
+    margin-right: 30px;
+}
+
+
